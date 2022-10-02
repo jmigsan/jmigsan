@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { Box, Text, Link } from '@chakra-ui/react';
+import { Box, Text, Link as ChakraLink } from '@chakra-ui/react';
 
 const Home: NextPage = () => {
   return (
@@ -15,8 +15,17 @@ const Home: NextPage = () => {
         <Box p={12}>
           <Text fontSize={'xl'}>Juan Miguel Sanchez</Text>
           <Text fontSize={'2xl'}>Hello. I make websites and games.</Text>
-          <Text fontSize={'xl'} px={7} py={3}>
-            <Link href={'https://github.com/jmigsan'}>Github</Link>
+          <Text fontSize={'xl'} px={7} pt={3}>
+            <ChakraLink href={'https://github.com/jmigsan'}>Github</ChakraLink>
+          </Text>
+          <Text fontSize={'xl'} px={7} pt={3}>
+            <ChakraLink
+              href={
+                'https://www.linkedin.com/in/juan-miguel-sanchez-ab884523b/'
+              }
+            >
+              LinkedIn
+            </ChakraLink>
           </Text>
         </Box>
       </main>
