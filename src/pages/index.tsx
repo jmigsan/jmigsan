@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <main>
         <Box p={12}>
           <Text fontSize={'xl'}>Juan Miguel Sanchez</Text>
-          <Text fontSize={'2xl'}>Hello. I make websites and games.</Text>
+          <Text fontSize={'2xl'}>Hello. I make websites.</Text>
           <Text fontSize={'xl'} px={7} pt={3}>
             <ChakraLink href={'https://github.com/jmigsan'}>Github</ChakraLink>
           </Text>
